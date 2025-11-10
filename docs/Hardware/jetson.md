@@ -18,6 +18,5 @@ Firstly, check your
 - PyTorch version
 - JetPack version
 
-Then, find matches torchvision from [Ultralytics releases](https://github.com/ultralytics/assets/releases)
-f
+Then, find matches torchvision from [Ultralytics releases](https://github.com/ultralytics/assets/releases) with their v0.0.0 assets.
 
