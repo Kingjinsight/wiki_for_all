@@ -1,21 +1,39 @@
+# Pandas
+
 Pandas has two built-in data types: **series** and **data frame**
+- **Series** are columns in the dataset
+- **Data Frame** is the object the dataset to a data type that can be use in pandas
 
-## Function: 
+## Function:
 
-1. db.info(): what types are used
-2. db.describe(): overview of the numerical data, gives the most important statistical analysis.
-3. pd.to_numeric(db[column], error={'ignore','raise','coerce'}, downcast={'integer','signed','unsigned','float'}): ensure every entry in a column is numeric.
-4. db[column].isna(): by checking which values are NaN, with True and False values.
-5. db.dropna(axis, how, subset, thresh): drop rows if any values is NaN
-6. db.fillna(value, method, axis, limit): replace NA with mean, max or min values of the column, strings and 0.
-7. db.nunique(): how many unique values we have in each column of the Dataframe.
-8. db.duplicated(): To search for entire rows of data that duplicate other rows, and return a mask
-9. pd.concat(df, axis, join):append one data structures to the other along one axis
-10. pd.merge(dataframe1. dataframe2. on, how): Merge two dataframes by one or multiple Keys/ Indices, A little bit like Join in SQL
+#### Initial data exploration:
+
+- df.info(): what types are used
+- df.describe(): overview of the numerical data, gives the most important statistical analysis.
+- df[column].isna(): by checking which values are NaN, with True and False values.
+- df.dropna(axis, how, subset, thresh): drop rows if any values is NaN
+- df.fillna(value, method, axis, limit): replace NA with mean, max or min values of the column, strings and 0.
+- df.nunique(): how many unique values we have in each column of the Dataframe.
+- df.duplicated(): To search for entire rows of data that duplicate other rows, and return a mask
+- pd.to_numeric(df[column], error={'ignore','raise','coerce'}, downcast={'integer','signed','unsigned','float'}): ensure every entry in a column is numeric. 
+- df.groupby("series"): Splitting dataframe bu categorical value inside this series
+
+#### Explore information of one column
+
+- pd.unique(column): Return unique values based on hash table.
+- Series.value_counts(): Return a Series containing counts of unique values
+- Series.mean(): Return the mean of the values over the requested axis
+- 
+
+#### Data manipulation
+
+- pd.concat(df, axis, join):append one data structures to the other along one axis
+- pd.merge(dataframe1. dataframe2. on, how): Merge two dataframes by one or multiple Keys/ Indices, A little bit like Join in SQL
 
 
-Fact:
 
-1. type(np.NaN) = float, which means coerce a column can apply all numeric operations to entire columns.
-2. mask is a series return True and False
-3. ~ will revert boolean values in a series
+## Fact:
+
+- type(np.NaN) = float, which means coerce a column can apply all numeric operations to entire columns.
+- mask is a series return True and False
+- ~ will revert boolean values in a series

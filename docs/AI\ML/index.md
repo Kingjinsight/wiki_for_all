@@ -3,6 +3,7 @@
 ## Frameworks
 
 - [Pytorch](pytorch.md)
+- [MXNet](mxnet.md)
 
 ## Libraries
 

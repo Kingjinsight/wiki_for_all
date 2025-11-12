@@ -1,7 +1,7 @@
-#
+# Programming
 
 ## Language
 
-- [Python](python.md)
-- [C++](c++.md)
-- [SQL](sql.md)
+- [Python](Python/index.md)
+- [C++](C++/index.md)
+- [SQL](Other_Language/sql.md)

@@ -1,0 +1,35 @@
+# Nvidia Hardware Term
+
+- **HBM**: High Bandwidth Memory, a high-performance memory technology. 
+    - Traditional way: GPU -> PCB traces(long) -> GDDR memory chips(distributed across the PCB)
+    - HBM way: GPU -> Interposer(very short) -> HBM stack(close to the GPU)
+- **NVLink**: High-speed GPU interconnect technology is used to solve communcation bottlenecks in multi-GPU systems.
+    - Allow multiple GPUs to directly transfer data to each other without going through the CPU or PCIe bus
+    - The bandwidth far exceeds PCIe
+- **Cuda Core**: General-purpose parallel processing unit, it can perform a wide range of calculation.
+- **Tensor Core**: Specifically designed to accelerate matrix operations in deep learning. Each tensor core only support one precision matrix such as FP32/ FP64.  
+E.g.: C = A * B (4*4 matrix)
+    - CUDA Core matrix operaions
+        - 64 times matrix multiplication operation
+        - 48 times matrix addition operation
+        - 112 times commands
+        - several clock period
+    - Tensor core matrix operations
+        - 1 specific command
+        - 1 clock period
+- **TOPS**: tera operations per second (INT8)
+- **TFLOPS**: tera floating-point operations per second (FP16)
+- **DLSS**: Use AI to upscale low-resolution images to high resolution. Training neural network to "fill in the details"
+- **RT Core**: Specifically designed to accelerate ray tracing calculations.
+- **Structured Sparsity**: Regularly removing weights allows the hardware to accelerate efficiently
+- **MIG**: Divide a large GPU into multiple smaller GPUs, each running independently. MIG enables team members to work simultaneously by partitioning a single GPU into independent instances, each allocated to an individual user.
+- **Transformer Engine**: Hardware acceleration engine specifically optimized for Transformer models
+    - Automatically switch between FP8 and FP16
+    - Optimize Self-Attention operation
+- **Tensor Memory Accelerator**: Dedicated hardware unit optimizes data movement between GPU memory levels
+- **DPX**: Dynamic Programming Instructions
+- **ECC**: Error-Correcting Code, Memory error detection and correction technology, automatically detects and repairs bit flip errors in memory, but it will shrink 12.5% of memory
+- **Micro-Tensor scaling**: Fine-grained Tensor quantization scaling techniques (related to FP8 training) since FP8 has a small dynamic range and is prone to overflow/underflow.
+    - Tradition scaling: The entire tensor uses a scaling factor
+    - Per Block scaling: Tensor is divided into blocks, and each block is scaled independently
+- **SXM** and **NVLink-C2C**: SXM is used to communicate between Intel/AMD CPU and Nvidia GPU by using PCIe, but it's too slow, 180GB/s. Nvidia investigates Grace CPU which support NVLink-C2C, which support 9000GB/s.
