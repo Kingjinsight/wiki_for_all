@@ -6,5 +6,5 @@
 
 - [ ] The content is accurate and contains no obvious errors.
 - [ ] Markdown format is correct
-- [ ] `mkdocs serve` is already running locally. (Preview)
+- [ ] `mkdocs serve` is running well locally. (Preview)
 - [ ] All links work fine
