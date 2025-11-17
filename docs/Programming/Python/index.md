@@ -1,17 +1,9 @@
 # Python
 
 ## Built-in libraries
-1. [OS](os_py.md)
 
+- [OS](os_py.md)
 
-## Dynamic datatype
+## Properties
 
-## Cpython
-
-## Memory management
-
-#### Reference Counting
-
-## Global Interpreter Lock(GIL)
-
-## Why python slow
+- lambda

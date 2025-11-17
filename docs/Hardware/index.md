@@ -15,6 +15,12 @@ If you also interested in Nvidia's software ecosystem: [Nvidia Software Ecosyste
 ## Configuration
 - [Jetson](jetson.md)
 
-## Parallel Computation of GPUs
+## Parallel Computation in Multi-GPUs
 
+- [Single-node Multi-GPU](single_node_multi_gpu.md)
+- [Multi-node Multi-GPU](multi_node_multi_gpu.md)
+- [Model Parallelism](model_parallelism.md)
+- [Data Parallel](data_parallel.md)
+- [Distributed Data Parallel](distributed_data_parallel.md)
 - [Parallel Computation demo](parallel_compt_demo.md)
+

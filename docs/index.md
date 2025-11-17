@@ -1,6 +1,6 @@
 # Home
 
-This wiki is for those who also study or interested in computer science or artificial intellifgence. In my learning approach, I searching scattered documentation and random blog post or ask LLM's help, which spent countless hours on those thing. This wiki is my attempt to record these tips, gotchas or my experience to save your and mine time.
+This wiki is for those who also study or are interested in computer science or artificial intelligence. In my learning approach, I search scattered documentation and random blog posts, or ask LLMs help, which takes up countless hours on those things. This wiki is my attempt to record these tips, gotchas, and my experience to save your and my time.
 
 Full wiki:
  
