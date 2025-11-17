@@ -30,7 +30,7 @@ Pandas has two built-in data types: **series** and **data frame**
 
 - `pd.concat(df, axis, join)`:append one data structures to the other along one axis
 - `pd.merge(dataframe1. dataframe2. on, how)`: Merge two dataframes by one or multiple Keys/ Indices, A little bit like Join in SQL
-- ![different joins](/images/joins_in_pandas.png)
+- ![different joins](../images/joins_in_pandas.png)
 - `df_filtered = df[df["Column"].isin([specific value1, specific value2])]`: Filter rows that contain specifc values in a column:.
 - `df.drop('column name', axis=1)`: Remove column or columns
     - axis=1: Column operations

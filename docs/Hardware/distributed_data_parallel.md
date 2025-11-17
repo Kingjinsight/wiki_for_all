@@ -11,7 +11,7 @@ This is the modern pytorch method to do data parallel. which is a ring synchroni
 
 1. Broke the gradients into n chunks
 2. and then doing steps below
-![ddp](/images/ddp.png)
+![ddp](../images/ddp.png)
 3. Untile every GPU's n chunks has four red cross.
 
 - Then the total time improve from DP's n to (n-1)/n which is 1
