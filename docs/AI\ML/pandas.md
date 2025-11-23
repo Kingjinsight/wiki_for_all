@@ -8,6 +8,7 @@ Pandas has two built-in data types: **series** and **data frame**
 
 #### Initial data exploration:
 
+- `df = pd.read_csv("path_to_dataset")`: load dataset
 - `df.info()`: what types are used
 - `df.describe()`: overview of the numerical data, gives the most important statistical analysis.
 - `df[column].isna()`: by checking which values are NaN, with True and False values.
@@ -36,6 +37,7 @@ Pandas has two built-in data types: **series** and **data frame**
     - axis=1: Column operations
 - `DataFrame.reset_index`: Change multiIndex back to a regular column and reset it to the default numeric index.
 - `Series.apply()`: Invoke function on values of Series
+- `pd.DataFrame(data={'col1':[1,2], 'col2':[3,4]})`: create dataframe 
 
 #### Date
 

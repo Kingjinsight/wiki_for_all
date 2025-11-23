@@ -1,6 +1,6 @@
 # Distributed Data Parallel
 
-[Learn waht is Data Parallel](data_parallel.md)
+[Learn what is Data Parallel](data_parallel.md)
 
 This is the modern pytorch method to do data parallel. which is a ring synchronization method. [NCCL](../Tools/Nvidia/nccl.md) provides good optimization for DDP.
 

@@ -13,7 +13,7 @@ Pros:
 Cons:
 
 - Limited number of GPU
-- High Cost tp configure one machine
+- High Cost to configure one machine
 
 Examples:
 

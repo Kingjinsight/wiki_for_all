@@ -71,6 +71,9 @@ Python Frontend thread will wait for the C++ backend thread to finish computing 
 
 - **torch.load** - Loads an object saved with torch.save from a file
 
+- **torch.squeeze(input)** - Returns a tensor with all specified dimensions of input of size 1 removed.
+
+
 **Tips**:
 
 1. To automatically infer one component of the shape, we can place a `-1` for the shape component that should be inferred automatically. In our case, instead of calling `x.reshape(3, 4)`, we could have equivalently called `x.reshape(-1, 4)` or `x.reshape(3, -1)`.
@@ -111,4 +114,6 @@ Python Frontend thread will wait for the C++ backend thread to finish computing 
 
 ## Torch.cuda
 
+- **torch.cuda.is_available**: check if GPU is available
+- **torch.cuda.get_device_name(0)**: Get names of GPU available
 - **torch.cuda.synchronize** - Wait for all kernels in all streams on a CUDA device to complete.

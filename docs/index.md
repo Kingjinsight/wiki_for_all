@@ -10,6 +10,7 @@ Full wiki:
 - [Systems](Systems/index.md)  
 - [Programming](Programming/index.md) 
 - [Tools](Tools/index.md)
+- [Papers](Papers/index.md)
 
 This wiki is keeping updated.
 

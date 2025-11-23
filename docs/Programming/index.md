@@ -4,4 +4,4 @@
 
 - [Python](Python/index.md)
 - [C++](C++/index.md)
-- [SQL](Other_Language/sql.md)
+- [SQL](Other_Languages/sql.md)
