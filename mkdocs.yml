@@ -35,6 +35,11 @@ theme:
     - search.highlight
     - header.autohide
 
+markdown_extensions:
+  - pymdownx.superfences:
+  - pymdownx.tabbed:
+      alternate_style: true
+
 plugins:
   - search
   - offline

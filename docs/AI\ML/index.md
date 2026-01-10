@@ -18,6 +18,11 @@
 - [Hugging Face Hub](hugging_face_hub.md)
 - [Gradio](gradio.md)
 
+## Engineering
+
+- [Agents Theorem](agents_theorem.md)
+- [Ollama](ollama.md)
+
 ## Computer vision
 
 - [SAM3](sam3.md)
