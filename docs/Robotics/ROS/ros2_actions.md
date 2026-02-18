@@ -1,6 +1,6 @@
 Actions are one of the communication types in ROS2 and are intended for long running tasks. They consist of three parts: a goal, feedback and a result
 
-Actions are built on [topics](ros2_topics.md) and [services](ros2_services.md). Their functionality is similar to services, except actions are preemptable. They also provide steady feedback, as opposed to services which return a single response.
+Actions are built on [topics](ros2_topics.md) and [services](ros2_service.md). Their functionality is similar to services, except actions are preemptable. They also provide steady feedback, as opposed to services which return a single response.
 
 Actions use a client-server model. An "action client" node sends a goal to an "action server" node that acknowledges the goal and returns a stream of feedback and a result
 

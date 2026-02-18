@@ -7,12 +7,19 @@ The reason why we use numpy to perform matrix operations
 
 ## Functions
 
-- `np.array()` - create an array
-- `np.dot()` - implement dot product operation
+- `np.array()` - create an array.
+- `np.dot()` - implement dot product operation.
 - `np.random.permutation()` - randomly permute a sequence, or return a permuted range.
-- `np.argmin()`: return the indices o the minimum values along an axis
+- `np.argmin()`: return the indices o the minimum values along an axis.
 - `np.mean()`: Compute the arithmetic mean along the specified axis.
 - `np.array_equal`: True if two arrays have the same shsape and elements, False otherwise.
 
-## Tips:
 
+## Statistics
+- `np.random.uniform(size=integer)`: Generate samples from a uniform distribution.
+- `np.random.choice(array, size)`: Simulate the choice multiple times.
+- `np.std(array,ddof)`: compute the standard deviation along the specified axis.
+    - ddof=0: population
+    - ddof=1: sample
+
+## Tips:

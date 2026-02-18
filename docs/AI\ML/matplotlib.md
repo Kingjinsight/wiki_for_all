@@ -12,3 +12,6 @@ Components of a Matplotlib Figure:
 - `ax.tick_params("x", labelrotation=n)`: rotate multiple subplots' x-axis
 - `plt.xlabel("name)`: set x label's name
 - `plt.title("title")`: set plot title
+- `fig,axs =  plt.subplots(x,y)`: plot subplot
+    - `axs[x0,y0].plot(x,y)`
+- 

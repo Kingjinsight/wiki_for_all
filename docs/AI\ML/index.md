@@ -22,6 +22,7 @@
 
 - [Agents Theorem](agents_theorem.md)
 - [Ollama](ollama.md)
+- [LLM Benchmarks](llm_benchmarks.md)
 
 ## Computer vision
 

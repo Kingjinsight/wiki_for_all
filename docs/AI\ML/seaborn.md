@@ -21,6 +21,7 @@ A high level abstract of matplotlib, with built-in data type **Series** and **Da
 - `sns.catplot()`: a quick way to generate multi-plot figure
 - `sns.pairplot(data)`: used to find correlation between each variable.
 - `sns.lineplot`
+- `sns.histplot`
 
 ## Functions:
 

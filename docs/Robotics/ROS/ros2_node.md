@@ -1,5 +1,5 @@
 1. Each node responsible for a single modular purpose
-2. Each node can send and receive data from other nodes via [topics](ros2_topics.md), [service](ros2_services.md), [actions](ros2_actions.md), or [parameters](ros2_parameters.md)
+2. Each node can send and receive data from other nodes via [topics](ros2_topics.md), [service](ros2_service.md), [actions](ros2_actions.md), or [parameters](ros2_parameters.md)
 3. a single executable can contain one or more nodes.
 ## Basic Commands
 ```zsh

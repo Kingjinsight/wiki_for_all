@@ -38,6 +38,7 @@ Pandas has two built-in data types: **series** and **data frame**
 - `DataFrame.reset_index`: Change multiIndex back to a regular column and reset it to the default numeric index.
 - `Series.apply()`: Invoke function on values of Series
 - `pd.DataFrame(data={'col1':[1,2], 'col2':[3,4]})`: create dataframe 
+- `pd.DataFrame.replace(to_replace, value, inplace)`
 
 #### Date
 
