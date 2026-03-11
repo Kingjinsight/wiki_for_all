@@ -17,12 +17,18 @@
 - [Ultralytics](ultralytics.md)
 - [Hugging Face Hub](hugging_face_hub.md)
 - [Gradio](gradio.md)
+- [LangGraph](langgraph.md)
 
 ## Engineering
 
 - [Agents Theorem](agents_theorem.md)
+- [Openclaw Architecture Overview](openclaw_architecture_overview.md)
+- [Context Engineering](context_engineering.md)
 - [Ollama](ollama.md)
 - [LLM Benchmarks](llm_benchmarks.md)
+- [MCP](mcp.md)
+- [Skill](skill.md)
+
 
 ## Computer vision
 
