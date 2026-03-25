@@ -24,6 +24,8 @@
 - [Agents Theorem](agents_theorem.md)
 - [Openclaw Architecture Overview](openclaw_architecture_overview.md)
 - [Context Engineering](context_engineering.md)
+- [RAG](rag.md)
+- [Vector Database](vector_database.md)
 - [Ollama](ollama.md)
 - [LLM Benchmarks](llm_benchmarks.md)
 - [MCP](mcp.md)
